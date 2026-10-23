@@ -1,0 +1,158 @@
+# zenray-plan : project feedback, append only (23 October 2026, 16:20:22 +0200)
+
+## 23 October 2026, 16:20:22 +0200 : Log
+
+<!-- feedback-event:9c251bf7e5b8c0c38da96cd2233bc6bf6990f3f9e4939e7f0061a20b89d418da (23 October 2026, 16:20:22 +0200) -->
+- Project: zenray-plan; kind: log. (23 October 2026, 16:20:22 +0200)
+
+> Project initialized: ZenRay Plan. Workshop: /Users/zenray/.claude/tmp/tmp-zenray-plan. (23 October 2026, 16:20:22 +0200)
+
+## 23 October 2026, 14:18:12 +0200 : Prompt
+
+<!-- feedback-event:d6eecd4ac424bbf4a29ed73dccf6b0e891a0133bd8412ae0c4d382dc9c53cebd (23 October 2026, 14:18:12 +0200) -->
+- Project: zenray-plan; kind: prompt. (23 October 2026, 14:18:12 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 14:18:12 +0200)
+
+> <pasted_content id="5919"> (23 October 2026, 14:18:12 +0200)
+> Aujourd'hui, j'ai un rendez-vous avec Andreas, c'est un ami qui est dans la vente et du coup le but ce serait que je lui explique à peu près mes activités afin qu'il m'aide à me mettre en relation avec des gens qui sont plutôt orientés vente et orientés démarche commerciale. Je ne sais pas comment lui présenter mes activités et ce que je fais, mais le but ce serait de lui clarifier au maximum tous les outils que j'ai créés et développés notamment ces derniers temps afin de fluidifier l'échange pour qu'il puisse m'aider au maximum. Le but c'est de lui présenter mon activité en tant que 3D tech artist et lui dire quelles sont mes hypothèses et alternatives de vente, mais le problème c'est que je ne sais pas exactement qui sont mes clients. En fait, il faudrait lui dire que j'ai un problème de démarchage commercial sur l'acquisition client parce que aussi je me concentre beaucoup sur la production et le développement d'outils qui à l'échelle peuvent être intéressants, mais qui pour l'instant me prennent beaucoup trop de temps. Donc c'est un peu ça le problème. Après je suis évidemment capable de me remettre en question et cetera. Il faudrait créer un skill qui s'appellerait soit Zenrai Sales, soit Zenrai Marketing. En fait mon problème c'est marketing et sales et le but ce serait que tu lises déjà tout le contexte de Zenrai Progress pour voir qu'est-ce que j'ai fait ces derniers temps et que tu puisses préparer le rendez-vous qui va durer environ une heure et qui commence dans 15 minutes. (23 October 2026, 14:18:12 +0200)
+> </pasted_content id="5919"> (23 October 2026, 14:18:12 +0200)
+>
+> /dont-stop  (23 October 2026, 14:18:12 +0200)
+> Il y a déjà un skill qui s'appelle Zenri Freelance, mais le problème c'est que j'envoie pas assez de contacts sur ça. Sur Zenri Freelance, il y a à peu près tu vois, il y a 736 studios à contacter et moi j'en ai contacté que 11. Mais je pense que ça peut être intéressant de lui montrer mon fichier Zenri Freelance parce que c'est l'outil le plus logique que j'ai développé pour la prospection client. Mais le problème que j'ai, c'est qu'il faut à la fois que je contacte les studios en tant que potentiel salarié, mais aussi en tant que potentiel freelance. donc c'est peut être ambigu pour les studios /zenray-website  (23 October 2026, 14:18:12 +0200)
+> Et enfin, il y a un double aspect dans le métier de tech artist, c'est qu'il faut à la fois développer son portfolio pour avoir une crédibilité sur LinkedIn, etc. Et à la fois, il faut développer l'asset store. Je te renvoie à mon website sur lequel on a zenrestudio.com, il me semble, mais le site n'est pas encore développé. Sinon, on a mathieuguy.com qui est mon site portfolio, mais où j'ai quand même la difficulté de produire tous les trucs et ensuite de marketer ce que j'ai fait. Alors après, je commence à trouver des solutions en créant des articles pendant la production, mais ce qui marche le mieux, c'est les shorts. Donc en fait, il y a un problème marketing et un problème de démarchage commercial auquel j'ai déjà commencé à réfléchir, mais qui n'est pas fini (23 October 2026, 14:18:12 +0200)
+> /progress  (23 October 2026, 14:18:12 +0200)
+>
+> /zenray-neutral-tone Donc là pour l'instant, tu codes pas forcément de nouvelles choses, mais tu mets juste à préparer le rendez-vous pour que ce soit le plus clair possible pour Andreas et pour qu'il puisse m'aider sans lui overflow le cerveau de tout ce que j'ai fait. (23 October 2026, 14:18:12 +0200)
+>
+> Je pense ce qui peut être important, c'est de voir dans le progrès ce que j'ai fait ces derniers temps. /tasks-sequence (23 October 2026, 14:18:12 +0200)
+
+## 23 October 2026, 14:19:15 +0200 : Iteration
+
+<!-- feedback-event:106e75906a40dd55ede4191fba2ca3a031423382293eb7b00ee6db5628476850 (23 October 2026, 14:19:15 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 14:19:15 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 14:19:15 +0200)
+
+> La fiche du rendez-vous est prête, je crée maintenant le skill zenray-sales. (23 October 2026, 14:19:15 +0200)
+
+## 23 October 2026, 14:19:55 +0200 : Iteration
+
+<!-- feedback-event:b17888ac2f7642f152ce917ff4c263dd8a654c249546174b13d599efa4b461dc (23 October 2026, 14:19:55 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 14:19:55 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 14:19:55 +0200)
+
+> La fiche tient sur une page : [/Users/zenray/.claude/tmp/tmp-rdv-andreas-sales-23-October-2026/BRIEF.md](/Users/zenray/.claude/tmp/tmp-rdv-andreas-sales-23-October-2026/BRIEF.md). (23 October 2026, 14:19:55 +0200)
+>
+> **Pour la présentation**, tu peux dire : « Je suis Technical Artist 3D freelance. Je fabrique des outils Houdini et Unreal qui génèrent des décors, des textures et des UV automatiquement. Je sais très bien produire, je sais mal vendre, et je n'ai pas encore trouvé qui sont mes clients. » (23 October 2026, 14:19:55 +0200)
+>
+> **Les chiffres à lui montrer**, lus dans ZenRay Freelance : (23 October 2026, 14:19:55 +0200)
+>
+> | Mesure | Valeur | (23 October 2026, 14:19:55 +0200)
+> |---|---| (23 October 2026, 14:19:55 +0200)
+> | Studios à contacter | 758 | (23 October 2026, 14:19:55 +0200)
+> | Studios contactés | 11 | (23 October 2026, 14:19:55 +0200)
+> | Réponses | 1 positive, 3 refus | (23 October 2026, 14:19:55 +0200)
+> | Encaissé depuis le 14 September 2026 | 665 € | (23 October 2026, 14:19:55 +0200)
+> | Objectif au 6 December 2026 | 10 000 € | (23 October 2026, 14:19:55 +0200)
+> | Produits en vente sur le store | 0 | (23 October 2026, 14:19:55 +0200)
+>
+> **Montre-lui un seul outil**, ZenRay Freelance sur zenray-progress.pages.dev. Les autres (Height, UV, Motion Design) ne tiennent qu'en une ligne chacun dans la fiche, pour ne pas le noyer. (23 October 2026, 14:19:55 +0200)
+>
+> **Tes trois ambiguïtés, à trancher avec lui :** (23 October 2026, 14:19:55 +0200)
+> - Te présenter aux studios comme futur salarié ou comme freelance. (23 October 2026, 14:19:55 +0200)
+> - Développer le portfolio ou le store. (23 October 2026, 14:19:55 +0200)
+> - Choisir une cible parmi les quatre hypothèses : studios de jeu, hors jeu, acheteurs d'assets, ou équipes qui veulent l'IA dans Houdini et Unreal. (23 October 2026, 14:19:55 +0200)
+>
+> **Ce que tu veux obtenir à la fin de l'heure :** une cible pour quatre semaines, un message type de cinq lignes relu par lui, deux ou trois contacts avec leur nom, et un rendez-vous de suivi daté. Essaie de parler moins de 15 minutes sur l'heure. (23 October 2026, 14:19:55 +0200)
+>
+> Le skill [/Users/zenray/.claude/skills/zenray-sales/SKILL.md](/Users/zenray/.claude/skills/zenray-sales/SKILL.md) contient la commande qui relit ces chiffres et un gabarit de fiche pour tes prochains rendez-vous. (23 October 2026, 14:19:55 +0200)
+>
+> | Ce que tu voulais | Fait | Comment je le sais | (23 October 2026, 14:19:55 +0200)
+> |---|---|---| (23 October 2026, 14:19:55 +0200)
+> | Une fiche claire pour Andreas | Oui | Je te l'ai envoyée | (23 October 2026, 14:19:55 +0200)
+> | Un skill sales ou marketing | Oui | Il est créé et copié vers Codex et Memory | (23 October 2026, 14:19:55 +0200)
+> | Partir de ce que tu as fait récemment | Oui | Chiffres lus dans le fichier des candidatures et dans le journal | (23 October 2026, 14:19:55 +0200)
+>
+> Ceci n'est pas une source de vérité : vérifie et fie-toi à ton for intérieur. (23 October 2026, 14:19:55 +0200)
+>
+> Reformulation plus courte de ta demande : « Prépare en 15 minutes mon rendez-vous d'une heure avec Andreas, ami dans la vente : une page claire sur mon activité de tech artist, mes outils, mes chiffres de prospection et mes doutes sur la cible, pour qu'il me présente des contacts. Range la méthode dans un skill zenray-sales. » (23 October 2026, 14:19:55 +0200)
+
+## 23 October 2026, 14:27:36 +0200 : Prompt
+
+<!-- feedback-event:d98a0e21b97db5e91d9442ed68a3b2eeae8758f3c916cf53b0e0badd8e12d9ab (23 October 2026, 14:27:36 +0200) -->
+- Project: zenray-plan; kind: prompt. (23 October 2026, 14:27:36 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 14:27:36 +0200)
+
+> juste ça a changer : Encaissé depuis le 14 September 2026	 c'est depuis Octobre et dit que c'est du a mon travail avec un studio ... pas une vente lbc. (23 October 2026, 14:27:36 +0200)
+
+## 23 October 2026, 14:27:52 +0200 : Iteration
+
+<!-- feedback-event:2a5bff62d7a209dace66cf280eb796e0bcd0aa5ff4518688220bd6b8e45ad087 (23 October 2026, 14:27:52 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 14:27:52 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 14:27:52 +0200)
+
+> J'ai corrigé la ligne dans la fiche : elle indique maintenant **« Encaissé depuis October 2026 : 665 €, mission pour un studio »**. Le gabarit du skill zenray-sales a la même correction. (23 October 2026, 14:27:52 +0200)
+>
+> J'ai aussi noté dans le journal que l'ancien tableau de suivi du 21 September 2026 attribuait ces 665 € à « PS5 et ventes », ce qui était faux. (23 October 2026, 14:27:52 +0200)
+>
+> La fiche corrigée : [/Users/zenray/.claude/tmp/tmp-rdv-andreas-sales-23-October-2026/BRIEF.md](/Users/zenray/.claude/tmp/tmp-rdv-andreas-sales-23-October-2026/BRIEF.md) (23 October 2026, 14:27:52 +0200)
+
+## 23 October 2026, 16:18:45 +0200 : Prompt
+
+<!-- feedback-event:c66e9a1b7077f6ee000cf52e1694f232e0a8aec78340a1940af877c61c67265f (23 October 2026, 16:18:45 +0200) -->
+- Project: zenray-plan; kind: prompt. (23 October 2026, 16:18:45 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 16:18:45 +0200)
+
+> crée un sous skill de [zenray-progress](slashCommand;zenray-progress) pour Plan agenda et met pendant une semaine déjà dans mon UI l'heure de début et de fin pour avoir le micro de chaque event et tu notes directement aussi dans le titre de chaque tâche tu me proposes 3 designs via zenray edit mais a l'avenir je veux un mini skill aussi relié à asset /zenray-assets sur le projet zenray-plan  (23 October 2026, 16:18:45 +0200)
+>
+> zenray plan devient un sous skills de /zenray-progress range et consgine ça proprement (23 October 2026, 16:18:45 +0200)
+> et ensuite via ce skill ajoute pendant une semaine ajoute Exécution Andreas Method = Contacter les studios via des mails au moins 10 par jours. obtenir un contrat et contacté Andréas go motivation 100% Simple method objectif CA !  (23 October 2026, 16:18:45 +0200)
+>
+> /tasks-sequence (23 October 2026, 16:18:45 +0200)
+
+## 23 October 2026, 16:19:03 +0200 : Prompt
+
+<!-- feedback-event:4250c38d3f0664c755ab6af1d074b2a0af86e432feee39037e33f8bb4ec5ef5a (23 October 2026, 16:19:03 +0200) -->
+- Project: zenray-plan; kind: prompt. (23 October 2026, 16:19:03 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 16:19:03 +0200)
+
+> de 9h à 10h30 l'objectif (23 October 2026, 16:19:03 +0200)
+
+## 23 October 2026, 16:20:23 +0200 : Prompt
+
+<!-- feedback-event:91224c8a7642290e822b82decdd1129cf35b8b4617f9ba56940050de9626d65c (23 October 2026, 16:20:23 +0200) -->
+- Project: zenray-plan; kind: prompt. (23 October 2026, 16:20:23 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 16:20:23 +0200)
+
+> de 9h à 10h30 l'objectif (23 October 2026, 16:20:23 +0200)
+
+## 23 October 2026, 16:19:46 +0200 : Iteration
+
+<!-- feedback-event:93674ac72ca6d80d767ee09d8470465e675faf7409c484ef1326212cc6b0be23 (23 October 2026, 16:19:46 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 16:19:46 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 16:19:46 +0200)
+
+> Je lis le code du Plan pour savoir comment les tâches s'affichent. Prochaine étape : créer le skill zenray-plan, puis écrire dans ton vrai plan. (23 October 2026, 16:19:46 +0200)
+
+## 23 October 2026, 16:19:57 +0200 : Iteration
+
+<!-- feedback-event:94134f9bece7c46e0dc39ea98bfebcfddbee32e33e6ed0caea6361ba095b5b4b (23 October 2026, 16:19:57 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 16:19:57 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 16:19:57 +0200)
+
+> Test of read access with the drive secret. (23 October 2026, 16:19:57 +0200)
+
+## 23 October 2026, 16:20:42 +0200 : Iteration
+
+<!-- feedback-event:6e45160ddcca4273f70c6bb20f23af2f6a28202940cc68d2cd1d8a5c0132fc44 (23 October 2026, 16:20:42 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 16:20:42 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 16:20:42 +0200)
+
+> J'écris maintenant l'outil qui lit et modifie ton Plan (heures dans les titres, série Andreas), avec un mode essai avant d'écrire. (23 October 2026, 16:20:42 +0200)
+
+## 23 October 2026, 16:21:30 +0200 : Iteration
+
+<!-- feedback-event:78ae9fd782e281aca12f340e5a565f330bc07c4e24d72cf001129b756afd3de0 (23 October 2026, 16:21:30 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 16:21:30 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 16:21:30 +0200)
+
+> Écriture faite et relue. Je fais les 3 designs de tuile. (23 October 2026, 16:21:30 +0200)
