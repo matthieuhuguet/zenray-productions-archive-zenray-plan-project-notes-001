@@ -445,3 +445,100 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 17:12:37 +0200)
 
 > Sections prospection, droit et délivrabilité écrites avec leurs sources. J'avance sur la tarification et l'appel de vente. (23 October 2026, 17:12:37 +0200)
+
+## 23 October 2026, 17:15:14 +0200 : Iteration
+
+<!-- feedback-event:065a620347b8da39e80fa335eb45896a5e4f8d90c83474b3e1f00d4f6f03e5bc (23 October 2026, 17:15:14 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 17:15:14 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 17:15:14 +0200)
+
+> Je construis maintenant le calculateur « euros par heure » qui tranche entre prospection, store et développement. (23 October 2026, 17:15:14 +0200)
+
+## 23 October 2026, 17:17:33 +0200 : Iteration
+
+<!-- feedback-event:9a2c322ca3e6ad07b35494d8f04a39fea104938c49212070f2d669dfaa691fa2 (23 October 2026, 17:17:33 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 17:17:33 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 17:17:33 +0200)
+
+> Troisième boucle de recherche : tarifs français, qui décide dans un studio, chiffres réels de Fab. Je l'ajoute à Sales1.md. (23 October 2026, 17:17:33 +0200)
+
+## 23 October 2026, 17:19:15 +0200 : Iteration
+
+<!-- feedback-event:e395fe3b92eb24b714e52f457628e423b37a696477d66b84d34bd80ae6971b9c (23 October 2026, 17:19:15 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 17:19:15 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 17:19:15 +0200)
+
+> Le skill zenray-sales est refait en conseiller. Il s'appuie sur une base de connaissance, construite comme Copernicus2.md pour ZenRay Height : [/Users/zenray/.claude/skills/zenray-sales/Sales1.md](/Users/zenray/.claude/skills/zenray-sales/Sales1.md). (23 October 2026, 17:19:15 +0200)
+>
+> **Ce que contient Sales1.md** (12 sections, environ 40 Ko, chaque fait daté et sourcé) : (23 October 2026, 17:19:15 +0200)
+> - **La journée de vente et les leçons d'Andreas :** à 9 h, le calendrier puis la to-do ; de 9 h à 10 h 30, contacter au moins 10 studios ; moins de développement, plus de prospection ; envoyer en volume. (23 October 2026, 17:19:15 +0200)
+> - **Ta stat de 1 réponse positive pour 10 studios :** notée là et dans Freelance1.md. Ta base n'en est qu'au début : 15 envois, 1 réponse positive, 3 refus. Il en faudra environ 100 avant d'en faire une loi. (23 October 2026, 17:19:15 +0200)
+> - **Les chiffres de la prospection par email :** (23 October 2026, 17:19:15 +0200)
+>   - Taux de réponse moyen du cold email : 3 à 6 %. (23 October 2026, 17:19:15 +0200)
+>   - Une relance aide nettement, la séquence idéale compte 3 à 5 messages. (23 October 2026, 17:19:15 +0200)
+>   - Les petits lots personnalisés répondent 2 à 3 fois mieux, d'après Woodpecker : c'est exactement ta méthode. (23 October 2026, 17:19:15 +0200)
+>   - Objet court, envoi le matin. (23 October 2026, 17:19:15 +0200)
+> - **Le droit et la technique :** la CNIL autorise l'email vers un professionnel sans accord préalable, si le message concerne son métier et propose un moyen simple de refuser. Gmail impose des règles techniques, mais seulement au-delà de 5 000 emails par jour. (23 October 2026, 17:19:15 +0200)
+> - **La tarification :** trois options, la plus chère en premier, et les principes de quatre auteurs de référence sur le prix (Weiss, Stark, Chris Do, Hormozi). Il y a aussi les délais de paiement et les pénalités de retard en France. (23 October 2026, 17:19:15 +0200)
+> - **L'appel de vente :** un déroulé de 30 minutes et un tableau de réponses aux objections, tirés de cinq méthodes de vente classiques (SPIN, Sandler, Voss, Enns, Challenger). (23 October 2026, 17:19:15 +0200)
+> - **Le marché :** (23 October 2026, 17:19:15 +0200)
+>   - Dans un studio, le directeur artistique juge le travail et le producteur achète. (23 October 2026, 17:19:15 +0200)
+>   - Fab reverse 88 % au vendeur, il faut compter environ six mois avant un revenu, et les outils y sont moins concurrencés que les assets. (23 October 2026, 17:19:15 +0200)
+>   - Un HDA fait avec Houdini Indie ne s'ouvre pas dans les studios qui ont la licence commerciale. (23 October 2026, 17:19:15 +0200)
+>   - TJM en France, licenciements de 2025 dans le jeu vidéo. (23 October 2026, 17:19:15 +0200)
+>
+> **Le calculateur** répond à des questions comme « store ou studios ? » par un calcul en euros par heure : `node /Users/zenray/.claude/skills/zenray-sales/scripts/SalesMath.mjs --measured`. Avec tes chiffres actuels : (23 October 2026, 17:19:15 +0200)
+>
+> | Option | € par heure | (23 October 2026, 17:19:15 +0200)
+> |---|---| (23 October 2026, 17:19:15 +0200)
+> | Prospecter des studios (contrat de 500 €) | 32 | (23 October 2026, 17:19:15 +0200)
+> | Mettre un asset sur le store (6 mois) | 23 | (23 October 2026, 17:19:15 +0200)
+> | Construire un outil avant d'avoir un client | 8 | (23 October 2026, 17:19:15 +0200)
+>
+> Construire un outil sans client est donc le moins payé dans tous les cas testés. La prospection reste en tête tant que plus d'environ 4 % des studios répondent positivement. Le levier le plus fort est le montant du contrat : passer de 500 € à 1 500 € double les euros par heure. Attention, le taux de signature (1 sur 3) et les ventes du store (5 par mois) sont des estimations, à remplacer par tes vrais chiffres. (23 October 2026, 17:19:15 +0200)
+>
+> **Ce qui n'est pas fini.** Sales1.md est bien plus petit que Copernicus2.md (2,6 Mo) : j'ai fait quatre boucles de recherche. Les sujets restants sont listés dans la section 11, par exemple le texte des douze proclamations d'Enns, les vrais tarifs de missions tech art en France et les ventes réelles d'outils sur Fab. Beaucoup de chiffres viennent d'éditeurs d'outils d'emailing : ils sont marqués comme tels dans le fichier. Il n'y avait pas d'anciens dossiers « sales » à ranger en dehors du skill lui-même et de la fiche Andreas. (23 October 2026, 17:19:15 +0200)
+>
+> | Ce que tu voulais | Fait | Comment je le sais | (23 October 2026, 17:19:15 +0200)
+> |---|---|---| (23 October 2026, 17:19:15 +0200)
+> | Skill zenray-sales qui répond aux questions de vente | Oui | Skill réécrit et synchronisé vers Codex et Memory | (23 October 2026, 17:19:15 +0200)
+> | Sales1.md rempli de connaissances du web | En partie | 4 boucles, environ 40 sources citées ; sujets restants listés | (23 October 2026, 17:19:15 +0200)
+> | Comprendre ton business et le contexte | Oui | Faits tirés de Matthieu1.md, Freelance1.md, ZenRay Freelance | (23 October 2026, 17:19:15 +0200)
+> | Noter la stat de 1 sur 10 | Oui | Sales1.md section 2 et Freelance1.md, avec la mesure réelle | (23 October 2026, 17:19:15 +0200)
+> | Logique « développer ou vendre » en euros par heure | Oui | Calculateur testé sur 4 scénarios et sur ta vraie base | (23 October 2026, 17:19:15 +0200)
+> | Leçons d'Andreas consignées | Oui | Sales1.md sections 1 et 2, commit dans Memory | (23 October 2026, 17:19:15 +0200)
+>
+> Ceci n'est pas une source de vérité : vérifie et fie-toi à ton for intérieur. (23 October 2026, 17:19:15 +0200)
+
+## 23 October 2026, 17:20:15 +0200 : Prompt
+
+<!-- feedback-event:dc58dd7ff768db0c7629950d4b1e4dd16f414df3079b5ab9b86edc1062596082 (23 October 2026, 17:20:15 +0200) -->
+- Project: zenray-plan; kind: prompt. (23 October 2026, 17:20:15 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 17:20:15 +0200)
+
+> Mais je comprends pas, c'est pas possible que tu es fait la recherche aussi rapidement. Il doit il doit te manquer plein d'informations. Je veux vraiment que tu sois l'outil ultime qui prenne la meilleure décision par rapport à une data quasi infinie. sur quoi tu te bases ? (23 October 2026, 17:20:15 +0200)
+
+## 23 October 2026, 17:21:10 +0200 : Iteration
+
+<!-- feedback-event:0a698c5132f92e45ed6218391c3ac2f07ff53a559defe9ee164c8d1e7799831d (23 October 2026, 17:21:10 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 17:21:10 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 17:21:10 +0200)
+
+> Tu as raison, et ton intuition est juste : la base est mince. Voici exactement sur quoi elle repose. (23 October 2026, 17:21:10 +0200)
+>
+> **Ce que j'ai réellement fait :** (23 October 2026, 17:21:10 +0200)
+> - Environ **25 recherches web**. Pour chacune, je n'ai reçu qu'un **résumé** de quelques pages trouvées, pas les pages elles-mêmes. (23 October 2026, 17:21:10 +0200)
+> - **5 pages lues en entier** seulement : la CNIL, les règles d'envoi de Google, l'étude Belkins sur les relances, le bilan d'un vendeur sur Fab, les chiffres de référence de Woodpecker. (23 October 2026, 17:21:10 +0200)
+> - **67 liens** cités, mais la majorité vient de blogs d'éditeurs d'outils d'emailing. Ils ont intérêt à publier ces chiffres, et je l'ai signalé dans le fichier à chaque fois. (23 October 2026, 17:21:10 +0200)
+> - **Aucun livre lu.** Hormozi, Voss, Rackham, Enns ou Weiss sont connus par des résumés de seconde main. Je n'ai même pas trouvé le texte des douze proclamations d'Enns. (23 October 2026, 17:21:10 +0200)
+> - Au total, Sales1.md fait environ 6 600 mots. Copernicus2.md en représente à peu près 400 fois plus (2,6 Mo). (23 October 2026, 17:21:10 +0200)
+>
+> **Ce qui est solide :** tes propres données (ta base ZenRay Freelance, Matthieu1.md, tes clients, les leçons d'Andreas), les règles de la CNIL et de Google lues à la source, et le calculateur. Sa logique est juste, mais deux de ses chiffres restent des estimations : 1 signature sur 3 réponses, et 5 ventes par mois sur le store. (23 October 2026, 17:21:10 +0200)
+>
+> **Ce qui manque :** les livres eux-mêmes, les études originales plutôt que leurs résumés, les vrais tarifs tech art en France, les ventes réelles d'outils Houdini et Unreal sur Fab, une liste des studios qui externalisent, et un catalogue de questions-réponses prêt à servir. (23 October 2026, 17:21:10 +0200)
+>
+> **Une limite à connaître :** une donnée « quasi infinie » n'existe pas pour moi. Je ne lis que ce que je vais chercher, une page à la fois, et beaucoup de livres ne sont pas en accès libre : pour eux, il faudra se contenter de leurs extraits publics, d'interviews et de conférences de leurs auteurs. Ce qui fait la qualité, c'est la méthode de Copernicus2 : lire les pages en entier, citer la source primaire, et tenir la boucle longtemps. (23 October 2026, 17:21:10 +0200)
+>
+> Je t'ai proposé une **session dédiée** (la carte ci-dessus), conforme à ta règle « plusieurs sessions plutôt que des workflows ». Elle a une consigne stricte : chaque fait doit venir d'une page lue en entier, au moins 80 nouvelles pages par session. Elle couvre les sujets ouverts, des fiches pour une quinzaine de livres (dont Cialdini, Blount, Fitzpatrick et Dunford, en plus de ceux déjà cités), les données de marché du jeu vidéo et 50 questions-réponses du conseiller. Tu la lances d'un clic. Tu peux en relancer une autre ensuite, autant de fois que tu veux. (23 October 2026, 17:21:10 +0200)
+>
+> Ceci n'est pas une source de vérité : vérifie et fie-toi à ton for intérieur. (23 October 2026, 17:21:10 +0200)

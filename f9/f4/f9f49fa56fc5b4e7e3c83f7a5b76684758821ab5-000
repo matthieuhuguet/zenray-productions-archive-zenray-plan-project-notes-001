@@ -1,23 +1,39 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-plan",
- "scannedAt": "2026-10-23T15:14:31.546Z",
+ "scannedAt": "2026-10-23T15:21:34.663Z",
  "conversations": [
   {
    "projectId": "zenray-plan",
-   "lines": 43,
+   "lines": 44,
    "work": 5,
    "prompts": 0,
    "first": "2026-10-23T14:20:23.136Z",
-   "last": "2026-10-23T15:09:20.199Z",
+   "last": "2026-10-23T15:20:15.303Z",
    "strength": "strong",
    "conversationId": "claude:7e127e64-f68b-4058-b7bb-62c6b86d72ba",
    "provider": "claude",
    "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
    "title": "zenray meeting",
-   "updatedAt": "2026-10-23T15:14:06.906Z",
-   "bytes": 6183279,
+   "updatedAt": "2026-10-23T15:21:15.774Z",
+   "bytes": 42156,
    "boundProject": "zenray-plan"
+  },
+  {
+   "projectId": "zenray-plan",
+   "lines": 17,
+   "work": 2,
+   "prompts": 0,
+   "first": "2026-10-23T15:13:50.298Z",
+   "last": "2026-10-23T15:18:07.579Z",
+   "strength": "weak",
+   "conversationId": "claude:dcc7ed98-e112-48d7-b02f-91779656c66d",
+   "provider": "claude",
+   "sessionId": "dcc7ed98-e112-48d7-b02f-91779656c66d",
+   "title": "zenray plan calendar",
+   "updatedAt": "2026-10-23T15:18:11.861Z",
+   "bytes": 38390,
+   "boundProject": null
   },
   {
    "projectId": "zenray-plan",
@@ -33,22 +49,6 @@
    "title": "Plan to Google Calendar",
    "updatedAt": "2026-10-17T21:33:27.624Z",
    "bytes": 39607,
-   "boundProject": null
-  },
-  {
-   "projectId": "zenray-plan",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-23T15:13:50.298Z",
-   "last": "2026-10-23T15:13:52.803Z",
-   "strength": "weak",
-   "conversationId": "claude:dcc7ed98-e112-48d7-b02f-91779656c66d",
-   "provider": "claude",
-   "sessionId": "dcc7ed98-e112-48d7-b02f-91779656c66d",
-   "title": "zenray plan calendar",
-   "updatedAt": "2026-10-23T15:14:00.062Z",
-   "bytes": 1939621,
    "boundProject": null
   }
  ]

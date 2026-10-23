@@ -1,0 +1,18 @@
+{
+  "date": "23 October 2026",
+  "slug": "plan-entry-zoom",
+  "folder": "2026-10-23-plan-entry-zoom",
+  "version": 1,
+  "title": "Plan, entrée directe et zoom semaine puis jour",
+  "module": "zenray-plan",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-plan",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-plan/entry-zoom-23-October-2026",
+  "files": [
+    "index.html"
+  ],
+  "indexSha256": "73d8c434292c292a186b20babff85bcf671873428f26ce251fd6840508888011",
+  "filedAt": "2026-10-23T15:17:40.207Z",
+  "note": null
+}
