@@ -156,3 +156,61 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 16:21:30 +0200)
 
 > Écriture faite et relue. Je fais les 3 designs de tuile. (23 October 2026, 16:21:30 +0200)
+
+## 23 October 2026, 16:38:55 +0200 : Iteration
+
+<!-- feedback-event:6fc79a575b8d8540a0e4aad374f93f5aaa8eb82f63738e0fe3ffcd06339aa49e (23 October 2026, 16:38:55 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 16:38:55 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 16:38:55 +0200)
+
+> Je prends des captures des 3 designs avec un navigateur isolé, puis je range le skill. (23 October 2026, 16:38:55 +0200)
+
+## 23 October 2026, 16:39:55 +0200 : Prompt
+
+<!-- feedback-event:efea18b902be053e47562f21d5aa60377321077c6343103f31158b389f93bc4c (23 October 2026, 16:39:55 +0200) -->
+- Project: zenray-plan; kind: prompt. (23 October 2026, 16:39:55 +0200)
+
+> Prompt du 23 October 2026 : sous-skill zenray-plan de zenray-progress, relié au projet Assets ; heure de début et de fin visible une semaine et écrite dans chaque titre ; 3 designs via zenray-edit ; série Exécution Andreas Method 9h00-10h30 pendant une semaine. (23 October 2026, 16:39:55 +0200)
+
+## 23 October 2026, 16:39:55 +0200 : Standing rule
+
+<!-- feedback-event:15e5de5e044760dbf2e2e52b471c290b351cf7570b18bbaa27a1593e9e2628d6 (23 October 2026, 16:39:55 +0200) -->
+- Project: zenray-plan; kind: rule. (23 October 2026, 16:39:55 +0200)
+
+> Écrire dans le Plan par PlanTool.mjs (essai à blanc puis --apply, relecture), jamais à la main ; heure dans les titres au format HH:MM-HH:MM · titre, relancer times après tout changement d'horaire. (23 October 2026, 16:39:55 +0200)
+
+## 23 October 2026, 16:39:59 +0200 : Iteration
+
+<!-- feedback-event:be57df1030635498e7d0de824de5af471bd7c4013e0e5660458540e894523c40 (23 October 2026, 16:39:59 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 16:39:59 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 16:39:59 +0200)
+
+> Les 7 tâches sont déjà synchronisées avec Google Calendar. Je journalise et je t'envoie les designs. (23 October 2026, 16:39:59 +0200)
+
+## 23 October 2026, 16:40:24 +0200 : Iteration
+
+<!-- feedback-event:4a186a657a99bc78e597fe03fc5c72b743d01abbf30cb66882af7cafefe4d287 (23 October 2026, 16:40:24 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 16:40:24 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 16:40:24 +0200)
+
+> Tout est fait dans ton vrai Plan, et je l'ai relu après l'écriture. (23 October 2026, 16:40:24 +0200)
+>
+> **Heures dans les titres.** Les 13 tâches du 23 au 30 October affichent maintenant leur horaire, par exemple « 09:00-10:30 · Nibir Khan RDV ». Si tu déplaces une tâche, l'heure du titre ne suit pas : il faut relancer la commande `times`, qui recalcule depuis l'heure réelle. (23 October 2026, 16:40:24 +0200)
+>
+> **Andreas Method.** La tâche est posée chaque jour de 9h00 à 10h30, du 24 au 30 October, sous le titre « Exécution Andreas Method : contacter les studios par mail, au moins 10 par jour ». Ta phrase complète est dans la note de chaque tâche. Les 7 tâches sont déjà dans Google Calendar. Le 24 October, elle tombe à la même heure que « Nibir Khan RDV ». (23 October 2026, 16:40:24 +0200)
+>
+> **Les 3 designs** pour afficher l'heure directement sur les tuiles sont dans les captures, avec des curseurs pour les régler : [/Users/zenray/.claude/skills/zenray-edit/templates/zenray-plan-tile-times/index.html](/Users/zenray/.claude/skills/zenray-edit/templates/zenray-plan-tile-times/index.html). Ils ne sont pas encore codés dans le site. Une fois le design choisi codé, je retirerai l'heure des titres pour qu'elle n'apparaisse pas deux fois. (23 October 2026, 16:40:24 +0200)
+>
+> **Le rangement :** (23 October 2026, 16:40:24 +0200)
+> - **Sous-skill :** [/Users/zenray/.claude/skills/zenray-plan/SKILL.md](/Users/zenray/.claude/skills/zenray-plan/SKILL.md), référencé dans zenray-progress. zenray-plan-publish devient son mode « publication du jour ». (23 October 2026, 16:40:24 +0200)
+> - **Outil :** [/Users/zenray/.claude/skills/zenray-plan/scripts/PlanTool.mjs](/Users/zenray/.claude/skills/zenray-plan/scripts/PlanTool.mjs). Il fait d'abord un essai sans rien écrire, puis écrit et relit. (23 October 2026, 16:40:24 +0200)
+> - **Projet Assets `zenray-plan` :** ta demande est notée dans son FEEDBACK.md, et la règle d'écriture dans son Rules.md. (23 October 2026, 16:40:24 +0200)
+> - **Code d'accès :** j'ai rangé le code du drive dans le trousseau macOS pour que l'outil marche seul. (23 October 2026, 16:40:24 +0200)
+>
+> | Ce que tu voulais | Fait | Comment je le sais | (23 October 2026, 16:40:24 +0200)
+> |---|---|---| (23 October 2026, 16:40:24 +0200)
+> | Heure de début et de fin dans les titres, une semaine | Oui | Plan relu : 13 titres sur 13 | (23 October 2026, 16:40:24 +0200)
+> | Andreas Method de 9h00 à 10h30, une semaine | Oui | 7 tâches relues, chacune liée à Google Calendar | (23 October 2026, 16:40:24 +0200)
+> | 3 designs via zenray-edit | Oui | Captures en clair et en sombre, vraies polices chargées | (23 October 2026, 16:40:24 +0200)
+> | Heure affichée sur les tuiles du site | Pas encore | J'attends ton choix de design | (23 October 2026, 16:40:24 +0200)
+> | zenray-plan sous zenray-progress, relié à Assets | Oui | Projet créé, skills synchronisés | (23 October 2026, 16:40:24 +0200)
