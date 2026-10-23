@@ -1,0 +1,22 @@
+{
+  "date": "23 October 2026",
+  "slug": "plan-tile-time-top",
+  "folder": "2026-10-23-plan-tile-time-top",
+  "version": 1,
+  "title": "Plan, heure en haut à gauche de la tuile",
+  "module": "zenray-plan",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-plan",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/tmp/tmp-zenray-plan/tile-time-top-23-October-2026",
+  "files": [
+    "index.html",
+    "dark.png",
+    "light.png",
+    "real-css-inverted.png",
+    "real-css.png"
+  ],
+  "indexSha256": "4961ab47ca5e5e882fb32368da24248de48d1bfddd923c3389e8d77f7e6f2b1d",
+  "filedAt": "2026-10-23T14:58:20.863Z",
+  "note": "Appliqué inversé : heure Anthropic Serif, titre GT Sectra LCG"
+}

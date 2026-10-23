@@ -1,0 +1,116 @@
+<!doctype html>
+<!-- zenray-plan-tile-times (23 October 2026, 16:40 Paris): three ways to show start and end time on a ZenRay Plan task tile. All values live in :root; the panel only writes those variables. -->
+<!-- FR : trois façons d'afficher l'heure de début et de fin sur une tuile du Plan. Le panneau n'écrit que les variables de :root. -->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plan Tile Times</title>
+<style>
+@font-face { font-family: 'InterVariable'; src: url('file:///Users/zenray/Library/Fonts/InterVariable.ttf'); font-weight: 100 900; }
+@font-face { font-family: 'AnthropicSerif'; src: url('file:///Users/zenray/Library/Fonts/AnthropicSerif-Regular.ttf'); font-weight: 400; }
+:root {
+  --zr-police-sans: 'InterVariable', 'Hiragino Sans W4', sans-serif;
+  --zr-police-serif: 'AnthropicSerif', 'Hiragino Mincho ProN W3', serif;
+  /* Parameters (exposed in the panel) / paramètres exposés */
+  --time-size: 12px;        /* time text size */
+  --time-opacity: .62;      /* time text strength */
+  --task-size: 15px;        /* title size, PLAN_UI.type.task */
+  --tile-width: 210px;      /* one day column */
+  --bar-px-per-hour: 34px;  /* design C: bar length per hour */
+  --pill-radius: 999px;     /* design B: capsule radius */
+  /* Theme / thème */
+  --bg: #ecebe8; --fg: #1d1d1f; --muted: #6e6e73; --glass-a: rgba(255,255,255,.78); --glass-b: rgba(255,255,255,.52);
+  --line: rgba(0,0,0,.08); --accent: #cc7c5e; --green: #34c759;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #1b1b1d; --fg: #f2f2f4; --muted: #a1a1a6; --glass-a: rgba(60,60,64,.82); --glass-b: rgba(44,44,48,.62); --line: rgba(255,255,255,.08); } }
+:root[data-theme="dark"] { --bg: #1b1b1d; --fg: #f2f2f4; --muted: #a1a1a6; --glass-a: rgba(60,60,64,.82); --glass-b: rgba(44,44,48,.62); --line: rgba(255,255,255,.08); }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 28px 16px 120px; background: var(--bg); color: var(--fg); font-family: var(--zr-police-sans); font-weight: 400; }
+h1 { font-family: var(--zr-police-serif); font-weight: 400; font-size: 26px; margin: 0 0 4px; }
+p.lead { color: var(--muted); margin: 0 0 24px; font-size: 14px; }
+.designs { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; }
+.card { padding: 16px; border-radius: 16px; background: var(--line); }
+.card h2 { font-size: 15px; font-weight: 400; margin: 0 0 4px; }
+.card h2 b { font-family: var(--zr-police-serif); font-weight: 400; color: var(--accent); margin-right: 6px; }
+.card p { font-size: 13px; color: var(--muted); margin: 0 0 14px; }
+.day { width: var(--tile-width); display: grid; gap: 6px; }
+.task { position: relative; display: grid; grid-template-columns: 15px minmax(0,1fr); gap: 6px; align-items: center; padding: 8px 9px; border-radius: 11px;
+  background: linear-gradient(135deg, var(--glass-a), var(--glass-b)); box-shadow: 0 0 0 1px var(--line); font-size: var(--task-size); line-height: 1.22; }
+.check { width: 16px; height: 16px; border-radius: 999px; border: 1px solid var(--muted); }
+.title { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.num { font-family: var(--zr-police-serif); font-weight: 400; }
+/* A: time line above the title / ligne horaire au-dessus du titre */
+.a .stack { display: grid; gap: 1px; min-width: 0; }
+.a .time { font-size: var(--time-size); opacity: var(--time-opacity); }
+/* B: capsule at the end / pastille en fin de tuile */
+.b .task { grid-template-columns: 15px minmax(0,1fr) auto; }
+.b .time { font-size: var(--time-size); padding: 2px 7px; border-radius: var(--pill-radius); background: var(--line); opacity: calc(var(--time-opacity) + .25); white-space: nowrap; }
+/* C: duration bar with start and end / barre de durée avec début et fin */
+.c .task { grid-template-columns: 15px 38px minmax(0,1fr); align-items: stretch; }
+.c .check { align-self: center; }
+.c .rail { display: grid; grid-template-rows: auto 1fr auto; justify-items: center; font-size: var(--time-size); opacity: var(--time-opacity); }
+.c .rail i { width: 2px; border-radius: 2px; background: var(--accent); min-height: calc(var(--h) * var(--bar-px-per-hour)); margin: 2px 0; opacity: .8; }
+.c .title { align-self: center; }
+/* Panel (workshop only, never shipped) / panneau d'atelier, jamais en production */
+.panel { position: fixed; right: 16px; bottom: 16px; width: min(300px, calc(100vw - 32px)); padding: 12px; border-radius: 14px; background: var(--glass-a); box-shadow: 0 0 0 1px var(--line), 0 10px 30px rgba(0,0,0,.18); font-size: 13px; backdrop-filter: blur(18px); }
+.panel label { display: grid; grid-template-columns: 1fr 44px; gap: 2px 8px; margin-bottom: 6px; }
+.panel input { grid-column: 1 / -1; }
+.panel output { text-align: right; font-family: var(--zr-police-serif); }
+.panel .row { display: flex; gap: 6px; }
+.panel button { flex: 1; font: inherit; padding: 6px; border-radius: 9px; border: 0; background: var(--line); color: var(--fg); cursor: pointer; }
+</style>
+</head>
+<body>
+<h1>Heures sur les tuiles du Plan</h1>
+<p class="lead">Trois designs, mêmes tâches que ta semaine du 24 October 2026. Les curseurs en bas à droite règlent les trois en même temps.</p>
+<div class="designs" id="designs"></div>
+
+<div class="panel" id="panel"></div>
+
+<script>
+// Data: the real week, one place. / données : la vraie semaine, un seul endroit.
+const TASKS = [
+  { start: '09:00', end: '10:30', title: 'Exécution Andreas Method : contacter les studios par mail, au moins 10 par jour' },
+  { start: '09:00', end: '10:30', title: 'Nibir Khan RDV' },
+  { start: '10:30', end: '12:00', title: 'prospection + contacts missions' },
+]
+const DESIGNS = [
+  { key: 'a', name: 'Ligne horaire', note: 'L’heure en petit au-dessus du titre, le titre garde toute la largeur.' },
+  { key: 'b', name: 'Pastille', note: 'Une capsule à droite, lisible d’un coup d’œil, le titre se coupe plus tôt.' },
+  { key: 'c', name: 'Barre de durée', note: 'Début en haut, fin en bas, la barre s’allonge avec la durée.' },
+]
+const PARAMS = [
+  ['--time-size', 'Taille de l’heure', 9, 16, 1, 'px'],
+  ['--time-opacity', 'Force de l’heure', .3, 1, .02, ''],
+  ['--task-size', 'Taille du titre', 12, 18, 1, 'px'],
+  ['--tile-width', 'Largeur de colonne', 150, 300, 5, 'px'],
+  ['--bar-px-per-hour', 'Barre C, px par heure', 10, 60, 1, 'px'],
+  ['--pill-radius', 'Pastille B, arrondi', 4, 999, 1, 'px'],
+]
+const hours = (a, b) => { const m = (s) => s.split(':').reduce((h, x) => h * 60 + +x); return (m(b) - m(a)) / 60 }
+const n = (s) => `<span class="num">${s}</span>`
+const tile = (k, t) => {
+  if (k === 'a') return `<div class="task"><span class="check"></span><span class="stack"><span class="time">${n(t.start)} - ${n(t.end)}</span><span class="title">${t.title}</span></span></div>`
+  if (k === 'b') return `<div class="task"><span class="check"></span><span class="title">${t.title}</span><span class="time">${n(t.start)}-${n(t.end)}</span></div>`
+  return `<div class="task"><span class="check"></span><span class="rail" style="--h:${hours(t.start, t.end)}">${n(t.start)}<i></i>${n(t.end)}</span><span class="title">${t.title}</span></div>`
+}
+document.getElementById('designs').innerHTML = DESIGNS.map((d, i) =>
+  `<section class="card ${d.key}"><h2><b>${i + 1}</b>${d.name}</h2><p>${d.note}</p><div class="day">${TASKS.map((t) => tile(d.key, t)).join('')}</div></section>`).join('')
+
+const root = document.documentElement, css = getComputedStyle(root)
+document.getElementById('panel').innerHTML = PARAMS.map(([v, label, min, max, step, unit]) => {
+  const val = parseFloat(css.getPropertyValue(v))
+  return `<label>${label}<output id="o${v}">${val}${unit}</output><input type="range" data-v="${v}" data-u="${unit}" min="${min}" max="${max}" step="${step}" value="${val}"></label>`
+}).join('') + `<div class="row"><button id="theme">Clair / sombre</button><button id="copy">Copier les valeurs pour le prompt</button></div>`
+document.querySelectorAll('.panel input').forEach((el) => el.addEventListener('input', () => {
+  root.style.setProperty(el.dataset.v, el.value + el.dataset.u); document.getElementById('o' + el.dataset.v).textContent = el.value + el.dataset.u
+}))
+document.getElementById('theme').onclick = () => { root.dataset.theme = (root.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')) === 'dark' ? 'light' : 'dark' }
+document.getElementById('copy').onclick = () => {
+  const line = 'Plan tile times : ' + PARAMS.map(([v]) => `${v}: ${getComputedStyle(root).getPropertyValue(v).trim()}`).join('; ')
+  navigator.clipboard.writeText(line).catch(() => prompt('Copie :', line))
+}
+</script>
+</body>
+</html>

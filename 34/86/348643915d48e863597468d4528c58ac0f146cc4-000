@@ -1,0 +1,18 @@
+{
+  "date": "23 October 2026",
+  "slug": "plan-tile-times",
+  "folder": "2026-10-23-plan-tile-times",
+  "version": 1,
+  "title": "Plan, trois façons d'afficher l'heure",
+  "module": "zenray-plan",
+  "assetsProject": "zenray-edit",
+  "project": "zenray-plan",
+  "status": "pending",
+  "atelier": "/Users/zenray/.claude/skills/zenray-edit/templates/zenray-plan-tile-times",
+  "files": [
+    "index.html"
+  ],
+  "indexSha256": "abcd6cc138cd3452a6f5262d9991c6a38a1586d44b194754f9ce07d8b481b33a",
+  "filedAt": "2026-10-23T14:58:21.835Z",
+  "note": null
+}
