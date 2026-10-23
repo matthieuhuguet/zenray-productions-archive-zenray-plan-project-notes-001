@@ -542,3 +542,88 @@
 > Je t'ai proposé une **session dédiée** (la carte ci-dessus), conforme à ta règle « plusieurs sessions plutôt que des workflows ». Elle a une consigne stricte : chaque fait doit venir d'une page lue en entier, au moins 80 nouvelles pages par session. Elle couvre les sujets ouverts, des fiches pour une quinzaine de livres (dont Cialdini, Blount, Fitzpatrick et Dunford, en plus de ceux déjà cités), les données de marché du jeu vidéo et 50 questions-réponses du conseiller. Tu la lances d'un clic. Tu peux en relancer une autre ensuite, autant de fois que tu veux. (23 October 2026, 17:21:10 +0200)
 >
 > Ceci n'est pas une source de vérité : vérifie et fie-toi à ton for intérieur. (23 October 2026, 17:21:10 +0200)
+
+## 23 October 2026, 17:32:11 +0200 : Prompt
+
+<!-- feedback-event:347ff39ac4d83d7336d13fd96365aa5f354591a4523d17f3f9849c9e4ad5542f (23 October 2026, 17:32:11 +0200) -->
+- Project: zenray-plan; kind: prompt. (23 October 2026, 17:32:11 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 17:32:11 +0200)
+
+> <local-command-caveat>The command below was run directly in Claude Code, not sent to you as a request, and its output goes straight to the user. It's recorded here as context for later messages.</local-command-caveat> (23 October 2026, 17:32:11 +0200)
+
+## 23 October 2026, 17:32:11 +0200 : Prompt
+
+<!-- feedback-event:0ed274191dd76e2c3a45373c498043fc0683768a5266655af23b2b7569e86ff4 (23 October 2026, 17:32:11 +0200) -->
+- Project: zenray-plan; kind: prompt. (23 October 2026, 17:32:11 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 17:32:11 +0200)
+
+> <command-name>/model</command-name> (23 October 2026, 17:32:11 +0200)
+>             <command-message>model</command-message> (23 October 2026, 17:32:11 +0200)
+>             <command-args>claude-sonnet-5-5</command-args> (23 October 2026, 17:32:11 +0200)
+
+## 23 October 2026, 17:32:11 +0200 : Prompt
+
+<!-- feedback-event:d819a21193eacfab7bb105665ea1880e3e79e89d0d902ee3cea0393b634843be (23 October 2026, 17:32:11 +0200) -->
+- Project: zenray-plan; kind: prompt. (23 October 2026, 17:32:11 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 17:32:11 +0200)
+
+> <local-command-stdout>Set model to `claude-sonnet-5-5`</local-command-stdout> (23 October 2026, 17:32:11 +0200)
+
+## 23 October 2026, 17:32:48 +0200 : Standing rule
+
+<!-- feedback-event:9eff84425329af6bbbe715c9b3503d0356048225c11095ab546d6786b1567a9f (23 October 2026, 17:32:48 +0200) -->
+- Project: zenray-plan; kind: rule. (23 October 2026, 17:32:48 +0200)
+
+> 23 October 2026 : dans le titre d'une tâche d'objectif quantifié, le chiffre vient en premier (« 10 mails par jour aux studios : ... »). (23 October 2026, 17:32:48 +0200)
+
+## 23 October 2026, 17:32:53 +0200 : Iteration
+
+<!-- feedback-event:90b513328cb95631a52b67a3b59d70a6a5eca1c57d57e1724d448a6e585f51c4 (23 October 2026, 17:32:53 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 17:32:53 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 17:32:53 +0200)
+
+> C'est fait. J'ai mis 7 jours, du 24 au 30 October, de 9h00 à 10h30. Le titre commence maintenant par le chiffre : **« 10 mails par jour aux studios : Exécution Andreas Method, obtenir un contrat, contacter Andréas »**. J'ai relu le Plan : les 7 tâches portent bien le nouveau titre. Google Calendar le reprend tout seul en environ une minute. Ta phrase complète reste dans la note de chaque tâche. (23 October 2026, 17:32:53 +0200)
+>
+> Si tu veux prolonger la série au-delà du 30 October, c'est une commande : dis-moi jusqu'à quelle date. (23 October 2026, 17:32:53 +0200)
+>
+> J'ai aussi noté la règle : pour une tâche avec un objectif chiffré, le chiffre vient en premier dans le titre. (23 October 2026, 17:32:53 +0200)
+>
+> Oui, tu peux continuer ici pendant que l'autre session fait la recherche. Je recevrai une note quand elle aura fini un tour de travail, et je te le dirai. (23 October 2026, 17:32:53 +0200)
+
+## 23 October 2026, 17:45:23 +0200 : Standing rule
+
+<!-- feedback-event:5b62365517fe0cfce1909950c9187a52167c3e74a7845a78a23dd679e9449f61 (23 October 2026, 17:45:23 +0200) -->
+- Project: zenray-plan; kind: rule. (23 October 2026, 17:45:23 +0200)
+
+> 23 October 2026 : une proposition de design du Plan se fait sur le VRAI composant (banc plan-lab, copie du plan en lecture seule), jamais sur une maquette réinventée ; le mode Focus (PLAN_UI.focus) s'ouvre à l'entrée et au double-clic, et un clic à côté rejoue le geste à l'envers jusqu'à la vue normale de la semaine. (23 October 2026, 17:45:23 +0200)
+
+## 23 October 2026, 17:59:38 +0200 : Iteration
+
+<!-- feedback-event:36e1093d9926e4e31f2b0c8fa4d84d305395bb0321d3c4ac4da146adb91b99d6 (23 October 2026, 17:59:38 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 17:59:38 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 17:59:38 +0200)
+
+> L'autre session a terminé un tour : Sales1.md est passé de 44 Ko à 141 Ko, et je l'ai vérifié. (23 October 2026, 17:59:38 +0200)
+>
+> - **Nouvelles sections (12 à 16) :** les sujets ouverts traités avec des sources primaires, 15 fiches de livres, le marché du jeu vidéo en France et en Europe, 57 questions-réponses du conseiller, et la liste des sujets restants. (23 October 2026, 17:59:38 +0200)
+> - **Pages lues :** 83 pages lues en entier, d'après le rapport de la session. Le fichier compte environ 90 mentions « page lue ». (23 October 2026, 17:59:38 +0200)
+> - **Forme :** aucun tiret cadratin. (23 October 2026, 17:59:38 +0200)
+> - **Contrôle :** je n'ai relu que la structure, pas le contenu de chaque section. (23 October 2026, 17:59:38 +0200)
+>
+> C'est trois fois plus gros qu'avant, mais encore loin des 2,6 Mo de Copernicus2.md. Dis-moi si tu veux que je relance une session de recherche, et sur quels sujets de la section 16. (23 October 2026, 17:59:38 +0200)
+
+## 23 October 2026, 18:49:36 +0200 : Prompt
+
+<!-- feedback-event:58b05734cb743d156067111e175575cf57003579a337859127d7cec970ffe6d2 (23 October 2026, 18:49:36 +0200) -->
+- Project: zenray-plan; kind: prompt. (23 October 2026, 18:49:36 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 18:49:36 +0200)
+
+> Ok, mais est-ce que tu as pensé à tout dans la recherche, c'est-à-dire les lois auto-entrepreneur, le basculement vers la SAS, l'entreprise, les formes d'évolution par rapport à mon propre business ? Il faut vraiment que l'agence soit ultra complète en fait. l'urssaff la déclaration des revenus, la potentialité du fait de travailler au Japon, la résidence permanente à terme, etc. (23 October 2026, 18:49:36 +0200)
+
+## 23 October 2026, 18:50:11 +0200 : Iteration
+
+<!-- feedback-event:20db3006f75077b1b24286a5ff85251b9d75d48f2b4f515643a54e7ccc5e3fd5 (23 October 2026, 18:50:11 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 18:50:11 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 18:50:11 +0200)
+
+> Elle tourne dans [Sales1 : statut, URSSAF, impôts, Japon](#local_23e9324d-5ec7-42a4-a676-73fbbbc46d9a). Elle vise des sources officielles (URSSAF, impots.gouv.fr, service-public.fr, administrations japonaises) et un calculateur de fiscalité ; je te dirai ici quand elle a fini un tour. (23 October 2026, 18:50:11 +0200)
