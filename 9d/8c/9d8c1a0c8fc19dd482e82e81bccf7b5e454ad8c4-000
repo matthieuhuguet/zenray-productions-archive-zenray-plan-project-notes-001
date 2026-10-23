@@ -382,3 +382,28 @@
 > | 3 designs via zenray-edit, rangés dans Assets | Oui | Lignes ajoutées au registre, copies dans zenray-edit et zenray-plan | (23 October 2026, 16:59:30 +0200)
 > | Règle consignée dans le skill | Oui | Section ajoutée en tête de zenray-edit, skill synchronisé | (23 October 2026, 16:59:30 +0200)
 > | Voir dans ta page connectée | Pas vérifié | Ta page est protégée par ton code d'accès | (23 October 2026, 16:59:30 +0200)
+
+## 23 October 2026, 17:04:06 +0200 : Prompt
+
+<!-- feedback-event:e91af7b257d6473b2b32ac49e71ef5b2539c1c37da9b324a3160cffd4891cd37 (23 October 2026, 17:04:06 +0200) -->
+- Project: zenray-plan; kind: prompt. (23 October 2026, 17:04:06 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 17:04:06 +0200)
+
+> Non en fait le corps Anthropic Serif rapidement pas GT Sectra ça marche pas. (23 October 2026, 17:04:06 +0200)
+
+## 23 October 2026, 17:04:56 +0200 : Standing rule
+
+<!-- feedback-event:ebb1d21c463e59d6b6b5f7eb9e5da5aa73de5a78fb3c856c92b4efc843cada3b (23 October 2026, 17:04:56 +0200) -->
+- Project: zenray-plan; kind: rule. (23 October 2026, 17:04:56 +0200)
+
+> 23 October 2026 : GT Sectra ne marche pas sur le corps des tuiles du Plan ; corps et heure en Anthropic Serif. (23 October 2026, 17:04:56 +0200)
+
+## 23 October 2026, 17:05:07 +0200 : Iteration
+
+<!-- feedback-event:313580d8df6b65478e8b298715a4920e07911759c3e2cd480e03bba6ff0d30cc (23 October 2026, 17:05:07 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 17:05:07 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 17:05:07 +0200)
+
+> C'est fait et en ligne : le titre des tuiles est revenu en Anthropic Serif, comme l'heure en petit en haut à gauche. Recharge la page du Plan pour le voir. Les 102 tests sont verts, et GT Sectra n'est plus dans le code du Plan en ligne. (23 October 2026, 17:05:07 +0200)
+>
+> J'ai noté la règle dans le projet zenray-plan : GT Sectra ne marche pas sur le corps des tuiles. Pour changer de police plus tard, c'est `police.titreTache` dans [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/create/planUiConfig.js](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/create/planUiConfig.js). (23 October 2026, 17:05:07 +0200)
