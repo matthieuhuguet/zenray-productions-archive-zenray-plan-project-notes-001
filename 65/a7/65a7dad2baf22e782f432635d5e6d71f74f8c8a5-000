@@ -3,3 +3,4 @@
 Standing rules of this project, one line each, loaded automatically at session start. Full history and context: FEEDBACK.md in this folder. A rule that changes gets a new line citing the old one. (23 October 2026)
 
 - Écrire dans le Plan par PlanTool.mjs (essai à blanc puis --apply, relecture), jamais à la main ; heure dans les titres au format HH:MM-HH:MM · titre, relancer times après tout changement d'horaire. (23 October 2026) <!-- rule:0402d5fdd69d -->
+- 23 October 2026 : l'heure s'affiche calculée sur chaque tuile (planTileTitle), plus jamais écrite dans le titre ; une tâche créée à la main doit aussi montrer son heure. (23 October 2026) <!-- rule:a48f519c8f8c -->

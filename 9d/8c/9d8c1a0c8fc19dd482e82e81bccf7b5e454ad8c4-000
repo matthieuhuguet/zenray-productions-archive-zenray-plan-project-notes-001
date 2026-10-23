@@ -259,3 +259,39 @@
 > Non ça bug encore car quand je crée une tâche genre "sport" ça écrit sport sans l'heure ... (23 October 2026, 16:45:11 +0200)
 >
 > [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba/images/1.webp] (23 October 2026, 16:45:11 +0200)
+
+## 23 October 2026, 16:46:44 +0200 : Iteration
+
+<!-- feedback-event:7a35d12effffcac104c304bbae8e10d182e952622c1a94acb454d325a5da63ab (23 October 2026, 16:46:44 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 16:46:44 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 16:46:44 +0200)
+
+> C'est en ligne. Je retire maintenant l'heure écrite à la main dans les titres, puisque la tuile la calcule seule. (23 October 2026, 16:46:44 +0200)
+
+## 23 October 2026, 16:47:08 +0200 : Standing rule
+
+<!-- feedback-event:477eea7572002b4d651ded05b0ef5df622aa95418ab0a55b5678bf2273b3e3b9 (23 October 2026, 16:47:08 +0200) -->
+- Project: zenray-plan; kind: rule. (23 October 2026, 16:47:08 +0200)
+
+> 23 October 2026 : l'heure s'affiche calculée sur chaque tuile (planTileTitle), plus jamais écrite dans le titre ; une tâche créée à la main doit aussi montrer son heure. (23 October 2026, 16:47:08 +0200)
+
+## 23 October 2026, 16:47:22 +0200 : Iteration
+
+<!-- feedback-event:89bf9e19d0572768576068fa21006795fe2f450c401cdd2bf4bf5f27a6350322 (23 October 2026, 16:47:22 +0200) -->
+- Project: zenray-plan; kind: iteration. (23 October 2026, 16:47:22 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/7e127e64-f68b-4058-b7bb-62c6b86d72ba.jsonl. (23 October 2026, 16:47:22 +0200)
+
+> C'est corrigé et en ligne. Recharge la page du Plan : ta tâche « sport » doit afficher **« 12:00-13:30 · sport »**. (23 October 2026, 16:47:22 +0200)
+>
+> **La cause :** l'heure n'était écrite que dans les titres que mon outil avait modifiés. Une tâche que tu crées toi-même restait donc sans heure. (23 October 2026, 16:47:22 +0200)
+>
+> **La correction :** c'est maintenant la tuile qui calcule l'heure, à partir de l'heure de début et de la durée de chaque tâche. Elle s'affiche donc pour toutes les tâches, y compris les nouvelles. Si tu déplaces une tâche, l'heure affichée suit. J'ai retiré l'heure que j'avais écrite dans les 13 titres, pour qu'elle n'apparaisse jamais deux fois. Si un jour tu veux masquer l'heure, il suffit de mettre `show: false` dans `PLAN_UI.tileTime`, dans [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/create/planUiConfig.js](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayProgress/src/create/planUiConfig.js). (23 October 2026, 16:47:22 +0200)
+>
+> Tu as **deux tâches « sport » à 12:00 le 24 October**, sans doute créées deux fois. Je n'en ai supprimé aucune. (23 October 2026, 16:47:22 +0200)
+>
+> | Ce que tu voulais | Fait | Comment je le sais | (23 October 2026, 16:47:22 +0200)
+> |---|---|---| (23 October 2026, 16:47:22 +0200)
+> | L'heure aussi sur une tâche créée à la main | Oui | 5 nouveaux tests verts, qui échouent bien si on casse le code | (23 October 2026, 16:47:22 +0200)
+> | En ligne sur ton site | Oui | Le fichier en production contient la modification | (23 October 2026, 16:47:22 +0200)
+> | Pas d'heure en double | Oui | Plan relu : plus aucun titre ne contient l'heure écrite | (23 October 2026, 16:47:22 +0200)
+> | Voir le résultat dans ta page | Pas vérifié | Ta page est protégée par ton code d'accès, je ne l'ai pas ouverte | (23 October 2026, 16:47:22 +0200)
