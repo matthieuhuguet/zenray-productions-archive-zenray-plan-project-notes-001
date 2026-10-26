@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-plan",
- "scannedAt": "2026-10-23T19:12:35.174Z",
+ "scannedAt": "2026-10-26T12:57:53.260Z",
  "conversations": [
   {
    "projectId": "zenray-plan",
@@ -16,7 +16,7 @@
    "sessionId": "dcc7ed98-e112-48d7-b02f-91779656c66d",
    "title": "zenray plan calendar",
    "updatedAt": "2026-10-23T17:39:34.036Z",
-   "bytes": 38449,
+   "bytes": 38450,
    "boundProject": null
   },
   {
@@ -32,7 +32,7 @@
    "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
    "title": "zenray sales",
    "updatedAt": "2026-10-23T19:08:40.874Z",
-   "bytes": 40321,
+   "bytes": 40322,
    "boundProject": "zenray-plan"
   },
   {
@@ -53,6 +53,22 @@
   },
   {
    "projectId": "zenray-plan",
+   "lines": 2,
+   "work": 1,
+   "prompts": 0,
+   "first": "2026-10-26T11:24:28.341Z",
+   "last": "2026-10-26T11:24:28.343Z",
+   "strength": "weak",
+   "conversationId": "codex:01a1779c-e438-78e2-a3df-a723e47de83f",
+   "provider": "codex",
+   "sessionId": "01a1779c-e438-78e2-a3df-a723e47de83f",
+   "title": "Conversation codex 01a1779c",
+   "updatedAt": "2026-10-26T12:13:31.426Z",
+   "bytes": 10616109,
+   "boundProject": "zenray-calendar-plan-23-october-2026"
+  },
+  {
+   "projectId": "zenray-plan",
    "lines": 21,
    "work": 0,
    "prompts": 0,
@@ -66,6 +82,22 @@
    "updatedAt": "2026-10-17T21:33:27.624Z",
    "bytes": 39607,
    "boundProject": null
+  },
+  {
+   "projectId": "zenray-plan",
+   "lines": 11,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-10-23T20:52:03.486Z",
+   "last": "2026-10-25T11:15:32.120Z",
+   "strength": "weak",
+   "conversationId": "claude:58712af3-1264-4e9c-a11d-d90fec62dce4",
+   "provider": "claude",
+   "sessionId": "58712af3-1264-4e9c-a11d-d90fec62dce4",
+   "title": "zenray calendar plan",
+   "updatedAt": "2026-10-25T11:34:49.680Z",
+   "bytes": 38213,
+   "boundProject": "zenray-calendar-plan-23-october-2026"
   }
  ]
 }
