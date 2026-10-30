@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-plan",
- "scannedAt": "2026-10-30T08:01:10.146Z",
+ "scannedAt": "2026-10-30T11:57:46.365Z",
  "conversations": [
   {
    "projectId": "zenray-plan",
@@ -63,8 +63,8 @@
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-30T00:33:11.745Z",
-   "bytes": 39014,
+   "updatedAt": "2026-10-30T11:56:28.864Z",
+   "bytes": 38999,
    "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
